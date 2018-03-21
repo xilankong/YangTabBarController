@@ -1,0 +1,6 @@
+framework module YangTabBarController {
+  umbrella header "YangTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

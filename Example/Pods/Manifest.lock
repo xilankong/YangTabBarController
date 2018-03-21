@@ -1,0 +1,16 @@
+PODS:
+  - YangTabBarController (0.1.0)
+
+DEPENDENCIES:
+  - YangTabBarController (from `../`)
+
+EXTERNAL SOURCES:
+  YangTabBarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YangTabBarController: d62128bd8dbbe8336e3d81fe8de2d525c2361b92
+
+PODFILE CHECKSUM: 382e88698fdf3a837126fe1e9d2c8e061a9e03f2
+
+COCOAPODS: 1.2.1

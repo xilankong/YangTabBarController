@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C1F13144B854094186D30ED4F75B85 /* YangTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7902D95F58E50BC4B0CB046182ED11 /* YangTabBarController-dummy.m */; };
+		0EF0AEF1FC61399B372F7F287631B35C /* Pods-YangTabBarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E138C0813D0CF4D4CD8D8250713B2340 /* Pods-YangTabBarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C7219127C4F563A50116E70543D26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		328A6F52BC9312B05C3063E3BBE551DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4ED1F651F5BF9373C71E186689B4862F /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE24BEB06F5CB39767D0BB3C0AF880EA /* ESTabBarItemBadgeView.swift */; };
+		5E49B6D9EDCB24A94554D44C56B6AF50 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61E249233DCA7C2F0D94FAC51EECA3B /* ESTabBarItemMoreContentView.swift */; };
+		656B3AA36E4353E1900C85A49C4B201B /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3AE86BD341DFACC46B7BFEB7E85851 /* ESTabBar.swift */; };
+		7CCFD2A0989EAACA19851E28043652C6 /* YangTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5688D38F08A340617346A6BBE21AA29 /* YangTabBarItemContentView.swift */; };
+		96D83E0E14A851363F78AFC358CB4524 /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E7399A750D5A2AAD32F15E333F070 /* ESTabBarItemContentView.swift */; };
+		A35C45480B438132CF6A41038F6ADBE8 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C94E8BF77F33119EDF518A6337664E /* ESTabBarController.swift */; };
+		A471D4DC1B1300276DB316FD41065BEE /* Pods-YangTabBarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D47925B0B229CAD8922207793AD7E0 /* Pods-YangTabBarController_Example-dummy.m */; };
+		ABAF5BEA7D9019E7CE77AA181D3219B1 /* Pods-YangTabBarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07BDAC4D9FCB7E3D03DF514D64465E2B /* Pods-YangTabBarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6348D8CDC2ACFA4AA1CF3CBDF313C04 /* Pods-YangTabBarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E6BC72C43721D46F85875D958F3F5C /* Pods-YangTabBarController_Tests-dummy.m */; };
+		CCF439C70A35EB67BC524B570915EFBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E18318DF5FAFA9C8EF86D6184A1E30EC /* YangTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1281E3530359F0FDF1FB4D23ADFE4154 /* YangTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18AC78D061E16DBD2DF3B0866B2C2DF /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6A81A22B31FFCBA4B311AB850A195 /* ESTabBarItemContainer.swift */; };
+		F4284B62524C011E194D37C8405BB637 /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862B556F19343985C7F89F705FA1FBF /* ESTabBarItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0299E762BACAF7F12C61859409591A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F4838E63375BE15712A23D4D721B24;
+			remoteInfo = YangTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022372E35D059EFBF418EFF50BB95496 /* Pods-YangTabBarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangTabBarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		06A223D565635C3D6B090AEB5C1F9B1E /* YangTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		06DEFE9EF44C280990F9CA6B2D51E743 /* Pods_YangTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangTabBarController_Example.framework; path = "Pods-YangTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BDAC4D9FCB7E3D03DF514D64465E2B /* Pods-YangTabBarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangTabBarController_Example-umbrella.h"; sourceTree = "<group>"; };
+		0862B556F19343985C7F89F705FA1FBF /* ESTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		0A7902D95F58E50BC4B0CB046182ED11 /* YangTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangTabBarController-dummy.m"; sourceTree = "<group>"; };
+		0F7008149012557344119A4C45E1A5F7 /* Pods-YangTabBarController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangTabBarController_Tests-resources.sh"; sourceTree = "<group>"; };
+		126D3A48F6EE79D27316DA7375B667DB /* Pods-YangTabBarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangTabBarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1281E3530359F0FDF1FB4D23ADFE4154 /* YangTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		1C3BA474ECEEED692AEFB43A99437BB4 /* Pods-YangTabBarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangTabBarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28F6A81A22B31FFCBA4B311AB850A195 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		385FBE7F3C356CA55F9010EEA53C41F0 /* YangTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangTabBarController.framework; path = YangTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C77A0E6CCE76AEC37240476624F91A8 /* Pods-YangTabBarController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangTabBarController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5A70E9B7C24985F9695FB619003DCC6B /* YangTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YangTabBarController.modulemap; sourceTree = "<group>"; };
+		5D6E7399A750D5A2AAD32F15E333F070 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DA717484E33743F0674DA896BD66D0C /* Pods-YangTabBarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangTabBarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FF5F92DD314B56334AD7CF9C6C80608 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3EB575B6530D250D59C3557B0368B4 /* Pods-YangTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		91E6BC72C43721D46F85875D958F3F5C /* Pods-YangTabBarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangTabBarController_Tests-dummy.m"; sourceTree = "<group>"; };
+		92F3E90D39EEF1A5EEC9AD04ECCDF4CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D47925B0B229CAD8922207793AD7E0 /* Pods-YangTabBarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangTabBarController_Example-dummy.m"; sourceTree = "<group>"; };
+		9AE9759E1C6F4601B41D691B1225E944 /* Pods-YangTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A4E4B6B091A737EE857E250C2268D752 /* Pods-YangTabBarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangTabBarController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AB6B13F2DB4751299652E77D71B119D2 /* Pods-YangTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B36873BA18A80C9A3C18D048DFED498D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E37C3A0F010144A2D35298658EB8C0 /* Pods-YangTabBarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangTabBarController_Example.modulemap"; sourceTree = "<group>"; };
+		D5688D38F08A340617346A6BBE21AA29 /* YangTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YangTabBarItemContentView.swift; sourceTree = "<group>"; };
+		D6D2F65A825BEB4F499AD59F77D806EB /* Pods-YangTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
+		D7C94E8BF77F33119EDF518A6337664E /* ESTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		E138C0813D0CF4D4CD8D8250713B2340 /* Pods-YangTabBarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangTabBarController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E61E249233DCA7C2F0D94FAC51EECA3B /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		E9AD02AB9EECC1512F3772685353AEC9 /* Pods_YangTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangTabBarController_Tests.framework; path = "Pods-YangTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B904C4D4CCFEC772835F612C40055A /* YangTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangTabBarController.xcconfig; sourceTree = "<group>"; };
+		ECE0BE86B9201D22F17D42DE3D00B8C9 /* Pods-YangTabBarController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangTabBarController_Example-resources.sh"; sourceTree = "<group>"; };
+		EFE325C4DF26AD8B82B519B3F4A59A5D /* Pods-YangTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB3AE86BD341DFACC46B7BFEB7E85851 /* ESTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
+		FE24BEB06F5CB39767D0BB3C0AF880EA /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58715A552BD3B3CDE3278AD86CC325BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF439C70A35EB67BC524B570915EFBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B551093CC060A195698DE7D8D0977B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328A6F52BC9312B05C3063E3BBE551DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FA02F3ED338B1E9AF3B4EF11091A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7219127C4F563A50116E70543D26C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFC9F2C01298A491F2106EAB44D6EAF /* YangTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C054C6DAE928996622AED62A859041D1 /* Support Files */,
+				E64198301C8728B934D848C4293D3E0E /* YangTabBarController */,
+			);
+			name = YangTabBarController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C82B2A9043BD2F9B00B29CB4AC2D9CC /* Pods-YangTabBarController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B36873BA18A80C9A3C18D048DFED498D /* Info.plist */,
+				C0E37C3A0F010144A2D35298658EB8C0 /* Pods-YangTabBarController_Example.modulemap */,
+				7DA717484E33743F0674DA896BD66D0C /* Pods-YangTabBarController_Example-acknowledgements.markdown */,
+				022372E35D059EFBF418EFF50BB95496 /* Pods-YangTabBarController_Example-acknowledgements.plist */,
+				95D47925B0B229CAD8922207793AD7E0 /* Pods-YangTabBarController_Example-dummy.m */,
+				A4E4B6B091A737EE857E250C2268D752 /* Pods-YangTabBarController_Example-frameworks.sh */,
+				ECE0BE86B9201D22F17D42DE3D00B8C9 /* Pods-YangTabBarController_Example-resources.sh */,
+				07BDAC4D9FCB7E3D03DF514D64465E2B /* Pods-YangTabBarController_Example-umbrella.h */,
+				EFE325C4DF26AD8B82B519B3F4A59A5D /* Pods-YangTabBarController_Example.debug.xcconfig */,
+				8B3EB575B6530D250D59C3557B0368B4 /* Pods-YangTabBarController_Example.release.xcconfig */,
+			);
+			name = "Pods-YangTabBarController_Example";
+			path = "Target Support Files/Pods-YangTabBarController_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F6C5F60433C5595975FED8BCBB8F752C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E447945AF5D218DB0B97B52739040ECF /* Products */,
+				A694A09012DFF38C06791B43C0C7A566 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEF9F5167C7ACAF30D4F33458A2D218 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5688D38F08A340617346A6BBE21AA29 /* YangTabBarItemContentView.swift */,
+				A097448D1817576DBC80A467CFE9DD58 /* core */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9EE80DD8BBBDBAB16E18C6E0083B6596 /* Pods-YangTabBarController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FF5F92DD314B56334AD7CF9C6C80608 /* Info.plist */,
+				D6D2F65A825BEB4F499AD59F77D806EB /* Pods-YangTabBarController_Tests.modulemap */,
+				126D3A48F6EE79D27316DA7375B667DB /* Pods-YangTabBarController_Tests-acknowledgements.markdown */,
+				1C3BA474ECEEED692AEFB43A99437BB4 /* Pods-YangTabBarController_Tests-acknowledgements.plist */,
+				91E6BC72C43721D46F85875D958F3F5C /* Pods-YangTabBarController_Tests-dummy.m */,
+				4C77A0E6CCE76AEC37240476624F91A8 /* Pods-YangTabBarController_Tests-frameworks.sh */,
+				0F7008149012557344119A4C45E1A5F7 /* Pods-YangTabBarController_Tests-resources.sh */,
+				E138C0813D0CF4D4CD8D8250713B2340 /* Pods-YangTabBarController_Tests-umbrella.h */,
+				AB6B13F2DB4751299652E77D71B119D2 /* Pods-YangTabBarController_Tests.debug.xcconfig */,
+				9AE9759E1C6F4601B41D691B1225E944 /* Pods-YangTabBarController_Tests.release.xcconfig */,
+			);
+			name = "Pods-YangTabBarController_Tests";
+			path = "Target Support Files/Pods-YangTabBarController_Tests";
+			sourceTree = "<group>";
+		};
+		A097448D1817576DBC80A467CFE9DD58 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				FB3AE86BD341DFACC46B7BFEB7E85851 /* ESTabBar.swift */,
+				D7C94E8BF77F33119EDF518A6337664E /* ESTabBarController.swift */,
+				0862B556F19343985C7F89F705FA1FBF /* ESTabBarItem.swift */,
+				FE24BEB06F5CB39767D0BB3C0AF880EA /* ESTabBarItemBadgeView.swift */,
+				28F6A81A22B31FFCBA4B311AB850A195 /* ESTabBarItemContainer.swift */,
+				5D6E7399A750D5A2AAD32F15E333F070 /* ESTabBarItemContentView.swift */,
+				E61E249233DCA7C2F0D94FAC51EECA3B /* ESTabBarItemMoreContentView.swift */,
+			);
+			name = core;
+			path = core;
+			sourceTree = "<group>";
+		};
+		A694A09012DFF38C06791B43C0C7A566 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C82B2A9043BD2F9B00B29CB4AC2D9CC /* Pods-YangTabBarController_Example */,
+				9EE80DD8BBBDBAB16E18C6E0083B6596 /* Pods-YangTabBarController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C054C6DAE928996622AED62A859041D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F3E90D39EEF1A5EEC9AD04ECCDF4CD /* Info.plist */,
+				5A70E9B7C24985F9695FB619003DCC6B /* YangTabBarController.modulemap */,
+				E9B904C4D4CCFEC772835F612C40055A /* YangTabBarController.xcconfig */,
+				0A7902D95F58E50BC4B0CB046182ED11 /* YangTabBarController-dummy.m */,
+				06A223D565635C3D6B090AEB5C1F9B1E /* YangTabBarController-prefix.pch */,
+				1281E3530359F0FDF1FB4D23ADFE4154 /* YangTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YangTabBarController";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E447945AF5D218DB0B97B52739040ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DEFE9EF44C280990F9CA6B2D51E743 /* Pods_YangTabBarController_Example.framework */,
+				E9AD02AB9EECC1512F3772685353AEC9 /* Pods_YangTabBarController_Tests.framework */,
+				385FBE7F3C356CA55F9010EEA53C41F0 /* YangTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E64198301C8728B934D848C4293D3E0E /* YangTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF9F5167C7ACAF30D4F33458A2D218 /* Classes */,
+			);
+			name = YangTabBarController;
+			path = YangTabBarController;
+			sourceTree = "<group>";
+		};
+		F6C5F60433C5595975FED8BCBB8F752C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC9F2C01298A491F2106EAB44D6EAF /* YangTabBarController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3087AF061E38655233589A88CF30F591 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAF5BEA7D9019E7CE77AA181D3219B1 /* Pods-YangTabBarController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3C2A0D2FEE0B5CF26AD8BB322B2F3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18318DF5FAFA9C8EF86D6184A1E30EC /* YangTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE5974F30E84C2EFDD5D8A10E89A29E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF0AEF1FC61399B372F7F287631B35C /* Pods-YangTabBarController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09F4838E63375BE15712A23D4D721B24 /* YangTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA9642D95E1E80774279B97590BE844 /* Build configuration list for PBXNativeTarget "YangTabBarController" */;
+			buildPhases = (
+				DAF27C1491942C86C47A8767D9E445CA /* Sources */,
+				A6B551093CC060A195698DE7D8D0977B /* Frameworks */,
+				5D3C2A0D2FEE0B5CF26AD8BB322B2F3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YangTabBarController;
+			productName = YangTabBarController;
+			productReference = 385FBE7F3C356CA55F9010EEA53C41F0 /* YangTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23BE5B71A7ADA8608CF90EC7565FB0FA /* Pods-YangTabBarController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A1322E4EE96FD1060EE32829CED2A6 /* Build configuration list for PBXNativeTarget "Pods-YangTabBarController_Tests" */;
+			buildPhases = (
+				F3896B963388ADDE9FB56EB3971E36C4 /* Sources */,
+				C4FA02F3ED338B1E9AF3B4EF11091A7B /* Frameworks */,
+				CAE5974F30E84C2EFDD5D8A10E89A29E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YangTabBarController_Tests";
+			productName = "Pods-YangTabBarController_Tests";
+			productReference = E9AD02AB9EECC1512F3772685353AEC9 /* Pods_YangTabBarController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD01D8F04C59A1D8E4D363D7D3324EFC /* Pods-YangTabBarController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A396BB2739E17451F32D33C44BDB8F2 /* Build configuration list for PBXNativeTarget "Pods-YangTabBarController_Example" */;
+			buildPhases = (
+				FDE1C96AB25FD50993724912A5EBB363 /* Sources */,
+				58715A552BD3B3CDE3278AD86CC325BE /* Frameworks */,
+				3087AF061E38655233589A88CF30F591 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				618B69DD8E3B23F922F09758CE90BAD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-YangTabBarController_Example";
+			productName = "Pods-YangTabBarController_Example";
+			productReference = 06DEFE9EF44C280990F9CA6B2D51E743 /* Pods_YangTabBarController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E447945AF5D218DB0B97B52739040ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD01D8F04C59A1D8E4D363D7D3324EFC /* Pods-YangTabBarController_Example */,
+				23BE5B71A7ADA8608CF90EC7565FB0FA /* Pods-YangTabBarController_Tests */,
+				09F4838E63375BE15712A23D4D721B24 /* YangTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF27C1491942C86C47A8767D9E445CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656B3AA36E4353E1900C85A49C4B201B /* ESTabBar.swift in Sources */,
+				A35C45480B438132CF6A41038F6ADBE8 /* ESTabBarController.swift in Sources */,
+				F4284B62524C011E194D37C8405BB637 /* ESTabBarItem.swift in Sources */,
+				4ED1F651F5BF9373C71E186689B4862F /* ESTabBarItemBadgeView.swift in Sources */,
+				F18AC78D061E16DBD2DF3B0866B2C2DF /* ESTabBarItemContainer.swift in Sources */,
+				96D83E0E14A851363F78AFC358CB4524 /* ESTabBarItemContentView.swift in Sources */,
+				5E49B6D9EDCB24A94554D44C56B6AF50 /* ESTabBarItemMoreContentView.swift in Sources */,
+				09C1F13144B854094186D30ED4F75B85 /* YangTabBarController-dummy.m in Sources */,
+				7CCFD2A0989EAACA19851E28043652C6 /* YangTabBarItemContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3896B963388ADDE9FB56EB3971E36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6348D8CDC2ACFA4AA1CF3CBDF313C04 /* Pods-YangTabBarController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1C96AB25FD50993724912A5EBB363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A471D4DC1B1300276DB316FD41065BEE /* Pods-YangTabBarController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		618B69DD8E3B23F922F09758CE90BAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YangTabBarController;
+			target = 09F4838E63375BE15712A23D4D721B24 /* YangTabBarController */;
+			targetProxy = 0299E762BACAF7F12C61859409591A80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0271EFD1AB079EC151B4B4E156CE4591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE9759E1C6F4601B41D691B1225E944 /* Pods-YangTabBarController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangTabBarController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangTabBarController_Tests/Pods-YangTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangTabBarController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38725341C5ED800C4A05B11859135901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B904C4D4CCFEC772835F612C40055A /* YangTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangTabBarController/YangTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangTabBarController/YangTabBarController.modulemap";
+				PRODUCT_NAME = YangTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53121F798A2EF05CC721FFB757229F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B904C4D4CCFEC772835F612C40055A /* YangTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangTabBarController/YangTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangTabBarController/YangTabBarController.modulemap";
+				PRODUCT_NAME = YangTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BBD35B36F077F82F93E5B8390227474A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6B13F2DB4751299652E77D71B119D2 /* Pods-YangTabBarController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangTabBarController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangTabBarController_Tests/Pods-YangTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangTabBarController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2FA50AC8AE2CD165B826B1E5ED7EC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE325C4DF26AD8B82B519B3F4A59A5D /* Pods-YangTabBarController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangTabBarController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangTabBarController_Example/Pods-YangTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangTabBarController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D796F128659FE2D43AB91CF1688A32CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F433EA9D046530658521787C395C4294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3EB575B6530D250D59C3557B0368B4 /* Pods-YangTabBarController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangTabBarController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangTabBarController_Example/Pods-YangTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangTabBarController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A396BB2739E17451F32D33C44BDB8F2 /* Build configuration list for PBXNativeTarget "Pods-YangTabBarController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FA50AC8AE2CD165B826B1E5ED7EC05 /* Debug */,
+				F433EA9D046530658521787C395C4294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A1322E4EE96FD1060EE32829CED2A6 /* Build configuration list for PBXNativeTarget "Pods-YangTabBarController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD35B36F077F82F93E5B8390227474A /* Debug */,
+				0271EFD1AB079EC151B4B4E156CE4591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D796F128659FE2D43AB91CF1688A32CA /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA9642D95E1E80774279B97590BE844 /* Build configuration list for PBXNativeTarget "YangTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38725341C5ED800C4A05B11859135901 /* Debug */,
+				53121F798A2EF05CC721FFB757229F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
