@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YangTabBarController_Example' do
+  pod 'YangTabBarController', :path => '../'
+
+  target 'YangTabBarController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
