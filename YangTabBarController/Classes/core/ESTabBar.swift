@@ -208,6 +208,8 @@ internal extension ESTabBar /* Layout */ {
                 break
             case .fillIncludeSeparator, .fillExcludeSeparator:
                 layoutBaseSystem = false
+                self.shadowImage = UIImage()
+                self.backgroundImage = UIImage()
             }
         }
         
