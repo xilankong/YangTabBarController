@@ -94,10 +94,6 @@ open class ESTabBarController: UITabBarController, ESTabBarDelegate {
             tabBar.delegate = self
             tabBar.customDelegate = self
             tabBar.tabBarController = self
-            if tabBar.itemCustomPositioning == .fillIncludeSeparator {
-                tabBar.shadowImage = UIImage()
-                tabBar.backgroundImage = UIImage()
-            }
             return tabBar
         }()
         self.setValue(tabBar, forKey: "tabBar")

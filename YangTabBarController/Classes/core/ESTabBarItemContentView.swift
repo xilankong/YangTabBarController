@@ -28,7 +28,7 @@ import UIKit
 open class ESTabBarItemContentView: UIView {
     
     // MARK: - PROPERTY SETTING
-
+    
     /// 设置contentView的偏移
     open var insets = UIEdgeInsets.zero
     
@@ -40,7 +40,7 @@ open class ESTabBarItemContentView: UIView {
     
     /// 是否支持高亮
     open var highlightEnabled = true
-
+    
     /// 文字颜色
     open var textColor = UIColor(white: 0.57254902, alpha: 1.0) {
         didSet {
@@ -121,7 +121,11 @@ open class ESTabBarItemContentView: UIView {
         let titleLabel = UILabel.init(frame: CGRect.zero)
         titleLabel.backgroundColor = .clear
         titleLabel.textColor = .clear
-        titleLabel.font = UIFont.systemFont(ofSize: 10.0)
+        if UIScreen.main.scale == 3 {
+            titleLabel.font = UIFont.systemFont(ofSize: 12)
+        } else {
+            titleLabel.font = UIFont.systemFont(ofSize: 11)
+        }
         titleLabel.textAlignment = .center
         return titleLabel
     }()
@@ -162,7 +166,7 @@ open class ESTabBarItemContentView: UIView {
             }
         }
     }
-    open var badgeOffset: UIOffset = UIOffset.init(horizontal: 6.0, vertical: -22.0) {
+    open var badgeOffset: UIOffset = UIOffset.init(horizontal: 6.0, vertical: 17) {
         didSet {
             if badgeOffset != oldValue {
                 self.updateLayout()
@@ -186,7 +190,7 @@ open class ESTabBarItemContentView: UIView {
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     open func updateDisplay() {
         imageView.image = (selected ? (selectedImage ?? image) : image)?.withRenderingMode(renderingMode)
         imageView.tintColor = selected ? highlightIconColor : iconColor
@@ -196,36 +200,35 @@ open class ESTabBarItemContentView: UIView {
     
     open func updateLayout() {
         let w = self.bounds.size.width
-        let h = self.bounds.size.height
         imageView.isHidden = (imageView.image == nil)
         titleLabel.isHidden = (titleLabel.text == nil)
         
         if !imageView.isHidden && !titleLabel.isHidden {
             titleLabel.sizeToFit()
             imageView.sizeToFit()
-            titleLabel.frame = CGRect.init(x: (w - titleLabel.bounds.size.width) / 2.0,
-                                           y: h - titleLabel.bounds.size.height - 1.0,
+            imageView.frame = CGRect.init(x: 0, y: 0,
+                                          width: 25,
+                                          height: 25)
+            imageView.center = CGPoint.init(x: w / 2.0, y: 17.0)
+            titleLabel.frame = CGRect.init(x: (w - titleLabel.bounds.size.width) / 2.0, y: imageView.frame.origin.y + imageView.frame.size.height + 4,
                                            width: titleLabel.bounds.size.width,
                                            height: titleLabel.bounds.size.height)
-            imageView.frame = CGRect.init(x: (w - imageView.bounds.size.width) / 2.0,
-                                          y: (h - imageView.bounds.size.height) / 2.0 - 6.0,
-                                          width: imageView.bounds.size.width,
-                                          height: imageView.bounds.size.height)
         } else if !imageView.isHidden {
-            imageView.sizeToFit()
-            imageView.center = CGPoint.init(x: w / 2.0, y: h / 2.0)
+            imageView.frame = CGRect.init(x: 0, y: 0,
+                                          width: 30,
+                                          height: 30)
+            imageView.center = CGPoint.init(x: w / 2.0, y: 25.0)
         } else if !titleLabel.isHidden {
-            titleLabel.sizeToFit()
-            titleLabel.center = CGPoint.init(x: w / 2.0, y: h / 2.0)
+            titleLabel.center = CGPoint.init(x: w / 2.0, y: 25.0)
         }
         
         if let _ = badgeView.superview {
             let size = badgeView.sizeThatFits(self.frame.size)
-            badgeView.frame = CGRect.init(origin: CGPoint.init(x: w / 2.0 + badgeOffset.horizontal, y: h / 2.0 + badgeOffset.vertical), size: size)
+            badgeView.frame = CGRect.init(origin: CGPoint.init(x: w / 2.0 + badgeOffset.horizontal, y: 4), size: size)
             badgeView.setNeedsLayout()
         }
     }
-
+    
     // MARK: - INTERNAL METHODS
     internal final func select(animated: Bool, completion: (() -> ())?) {
         selected = true
