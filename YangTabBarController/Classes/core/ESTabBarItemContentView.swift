@@ -139,7 +139,7 @@ open class ESTabBarItemContentView: UIView {
             }
         }
     }
-    open var badgeOffset: UIOffset = UIOffset.init(horizontal: 6.0, vertical: 17) {
+    open var badgeOffset: UIOffset = UIOffset.init(horizontal: 5.0, vertical: 17) {
         didSet {
             if badgeOffset != oldValue {
                 self.updateLayout()
@@ -177,19 +177,11 @@ open class ESTabBarItemContentView: UIView {
         titleLabel.isHidden = (titleLabel.text == nil)
         
         if !imageView.isHidden && !titleLabel.isHidden {
-            titleLabel.sizeToFit()
-            imageView.sizeToFit()
-            imageView.frame = CGRect.init(x: 0, y: 0,
-                                          width: 25,
-                                          height: 25)
+            imageView.frame = CGRect.init(x: 0, y: 0, width: 25, height: 25)
             imageView.center = CGPoint.init(x: w / 2.0, y: 17.0)
-            titleLabel.frame = CGRect.init(x: (w - titleLabel.bounds.size.width) / 2.0, y: imageView.frame.origin.y + imageView.frame.size.height + 4,
-                                           width: titleLabel.bounds.size.width,
-                                           height: titleLabel.bounds.size.height)
+            titleLabel.frame = CGRect.init(x: (w - 25) / 2.0, y: imageView.frame.origin.y + 29, width: 25, height: 25)
         } else if !imageView.isHidden {
-            imageView.frame = CGRect.init(x: 0, y: 0,
-                                          width: 30,
-                                          height: 30)
+            imageView.frame = CGRect.init(x: 0, y: 0, width: 30, height: 30)
             imageView.center = CGPoint.init(x: w / 2.0, y: 25.0)
         } else if !titleLabel.isHidden {
             titleLabel.center = CGPoint.init(x: w / 2.0, y: 25.0)
