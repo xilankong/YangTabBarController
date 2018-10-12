@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		022372E35D059EFBF418EFF50BB95496 /* Pods-YangTabBarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangTabBarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		06A223D565635C3D6B090AEB5C1F9B1E /* YangTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		06DEFE9EF44C280990F9CA6B2D51E743 /* Pods_YangTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangTabBarController_Example.framework; path = "Pods-YangTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DEFE9EF44C280990F9CA6B2D51E743 /* Pods_YangTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangTabBarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BDAC4D9FCB7E3D03DF514D64465E2B /* Pods-YangTabBarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangTabBarController_Example-umbrella.h"; sourceTree = "<group>"; };
 		0862B556F19343985C7F89F705FA1FBF /* ESTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
 		0A7902D95F58E50BC4B0CB046182ED11 /* YangTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangTabBarController-dummy.m"; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		1281E3530359F0FDF1FB4D23ADFE4154 /* YangTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangTabBarController-umbrella.h"; sourceTree = "<group>"; };
 		1C3BA474ECEEED692AEFB43A99437BB4 /* Pods-YangTabBarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangTabBarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		28F6A81A22B31FFCBA4B311AB850A195 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
-		385FBE7F3C356CA55F9010EEA53C41F0 /* YangTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangTabBarController.framework; path = YangTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		385FBE7F3C356CA55F9010EEA53C41F0 /* YangTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YangTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C77A0E6CCE76AEC37240476624F91A8 /* Pods-YangTabBarController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangTabBarController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A70E9B7C24985F9695FB619003DCC6B /* YangTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YangTabBarController.modulemap; sourceTree = "<group>"; };
 		5D6E7399A750D5A2AAD32F15E333F070 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		8B3EB575B6530D250D59C3557B0368B4 /* Pods-YangTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		91E6BC72C43721D46F85875D958F3F5C /* Pods-YangTabBarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangTabBarController_Tests-dummy.m"; sourceTree = "<group>"; };
 		92F3E90D39EEF1A5EEC9AD04ECCDF4CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D47925B0B229CAD8922207793AD7E0 /* Pods-YangTabBarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangTabBarController_Example-dummy.m"; sourceTree = "<group>"; };
 		9AE9759E1C6F4601B41D691B1225E944 /* Pods-YangTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4E4B6B091A737EE857E250C2268D752 /* Pods-YangTabBarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangTabBarController_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		D7C94E8BF77F33119EDF518A6337664E /* ESTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
 		E138C0813D0CF4D4CD8D8250713B2340 /* Pods-YangTabBarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangTabBarController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E61E249233DCA7C2F0D94FAC51EECA3B /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
-		E9AD02AB9EECC1512F3772685353AEC9 /* Pods_YangTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangTabBarController_Tests.framework; path = "Pods-YangTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AD02AB9EECC1512F3772685353AEC9 /* Pods_YangTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangTabBarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B904C4D4CCFEC772835F612C40055A /* YangTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangTabBarController.xcconfig; sourceTree = "<group>"; };
 		ECE0BE86B9201D22F17D42DE3D00B8C9 /* Pods-YangTabBarController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangTabBarController_Example-resources.sh"; sourceTree = "<group>"; };
 		EFE325C4DF26AD8B82B519B3F4A59A5D /* Pods-YangTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,7 +151,6 @@
 				D5688D38F08A340617346A6BBE21AA29 /* YangTabBarItemContentView.swift */,
 				A097448D1817576DBC80A467CFE9DD58 /* core */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -184,7 +183,6 @@
 				5D6E7399A750D5A2AAD32F15E333F070 /* ESTabBarItemContentView.swift */,
 				E61E249233DCA7C2F0D94FAC51EECA3B /* ESTabBarItemMoreContentView.swift */,
 			);
-			name = core;
 			path = core;
 			sourceTree = "<group>";
 		};
@@ -242,7 +240,6 @@
 			children = (
 				8BEF9F5167C7ACAF30D4F33458A2D218 /* Classes */,
 			);
-			name = YangTabBarController;
 			path = YangTabBarController;
 			sourceTree = "<group>";
 		};
@@ -466,7 +463,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -496,7 +493,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

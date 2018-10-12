@@ -1,28 +1,3 @@
-//
-//  ESTabBarContentView.swift
-//
-//  Created by Vincent Li on 2017/2/8.
-//  Copyright (c) 2013-2017 ESTabBarController (https://github.com/eggswift/ESTabBarController)
-//
-//  Permission is hereby granted, free of charge, to any person obtaining a copy
-//  of this software and associated documentation files (the "Software"), to deal
-//  in the Software without restriction, including without limitation the rights
-//  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-//  copies of the Software, and to permit persons to whom the Software is
-//  furnished to do so, subject to the following conditions:
-//
-//  The above copyright notice and this permission notice shall be included in
-//  all copies or substantial portions of the Software.
-//
-//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-//  THE SOFTWARE.
-//
-
 import UIKit
 
 open class ESTabBarItemContentView: UIView {
@@ -56,14 +31,14 @@ open class ESTabBarItemContentView: UIView {
     }
     
     /// icon颜色
-    open var iconColor = UIColor(white: 0.57254902, alpha: 1.0) {
+    open var iconColor: UIColor? {
         didSet {
             if !selected { imageView.tintColor = iconColor }
         }
     }
     
     /// 高亮时icon颜色
-    open var highlightIconColor = UIColor(red: 0.0, green: 0.47843137, blue: 1.0, alpha: 1.0) {
+    open var highlightIconColor: UIColor? {
         didSet {
             if selected { imageView.tintColor = highlightIconColor }
         }
@@ -90,15 +65,13 @@ open class ESTabBarItemContentView: UIView {
         }
     }
     
-    /// Icon imageView renderingMode, default is .alwaysTemplate like UITabBarItem
-    open var renderingMode: UIImageRenderingMode = .alwaysTemplate {
+    /// 通过修改渲染模式，可以调整使用原图icon或者tinColor色图
+    open var renderingMode: UIImage.RenderingMode = .alwaysTemplate {
         didSet {
             self.updateDisplay()
         }
     }
     
-    
-    /// Icon imageView's image
     open var image: UIImage? {
         didSet {
             if !selected { self.updateDisplay() }

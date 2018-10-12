@@ -33,7 +33,7 @@ public class YangBouncesContentView: ESTabBarItemContentView {
         let impliesAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
         impliesAnimation.values = [1.0 ,1.4, 0.9, 1.15, 0.95, 1.02, 1.0]
         impliesAnimation.duration = duration * 2
-        impliesAnimation.calculationMode = kCAAnimationCubic
+        impliesAnimation.calculationMode = CAAnimationCalculationMode.cubic
         imageView.layer.add(impliesAnimation, forKey: nil)
     }
 }
@@ -69,8 +69,8 @@ public class YangIrregularityBasicContentView: ESTabBarItemContentView {
         self.imageView.layer.masksToBounds = true
         let transform = CGAffineTransform.identity
         self.imageView.transform = transform
-        self.superview?.bringSubview(toFront: self)
-        self.insets = UIEdgeInsetsMake(-32, 0, 0, 0)
+        self.superview?.bringSubviewToFront(self)
+        self.insets = UIEdgeInsets(top: -32, left: 0, bottom: 0, right: 0)
         self.iconColor = UIColor.white
     }
     
